@@ -1,5 +1,4 @@
 // Package
-import 'package:catchy_store/presentation/resources/strings.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -8,6 +7,7 @@ import '../presentation/screens/account_before/account_before.dart';
 import '../presentation/screens/categories/categories.dart';
 import '../presentation/screens/chat/chat.dart';
 import '../presentation/screens/home/home.dart';
+import '../presentation/resources/strings.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);

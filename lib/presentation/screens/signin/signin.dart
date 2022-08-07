@@ -168,7 +168,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     ButtonWidget(
                       text: 'Sign In',
                       onTab: () {
-                        Navigator.pushNamed(context, Routes.homeRoute);
+                        Navigator.pushNamed(context, Routes.mainRoute);
                       },
                     )
                   ],

@@ -21,8 +21,8 @@ class CategoriesBox extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            height: 70.0,
-            width: 70.0,
+            height: 65.0,
+            width: 65.0,
             decoration: BoxDecoration(
               color: color,
               borderRadius: const BorderRadius.all(

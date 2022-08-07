@@ -13,8 +13,8 @@ class OfferBanner extends StatelessWidget {
     return Align(
       alignment: Alignment.center,
       child: Container(
-        margin: const EdgeInsets.symmetric(vertical: 10.0),
-        width: 380.0,
+        padding: const EdgeInsets.all(10.0),
+        margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
         height: 160.0,
         child: GestureDetector(
           onTap: () {

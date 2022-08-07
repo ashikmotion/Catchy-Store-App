@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-import '../../resources/constend.dart';
-import '../../resources/content_model.dart';
 import '../../../presentation/resources/routes.dart';
 import '../../../presentation/resources/strings.dart';
+import '../../resources/constend.dart';
+import '../../resources/content_model.dart';
 
 class OneBoardingScreen extends StatefulWidget {
   const OneBoardingScreen({Key? key}) : super(key: key);
-  
+
   @override
   _OneBoardingScreenState createState() => _OneBoardingScreenState();
 }
